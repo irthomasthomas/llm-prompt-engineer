@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+llm_jina.egg-info/PKG-INFO
+llm_jina.egg-info/SOURCES.txt
+llm_jina.egg-info/dependency_links.txt
+llm_jina.egg-info/entry_points.txt
+llm_jina.egg-info/requires.txt
+llm_jina.egg-info/top_level.txt
