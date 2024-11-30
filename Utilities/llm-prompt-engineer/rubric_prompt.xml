@@ -1,0 +1,132 @@
+You are an expert programmer and educator tasked with evaluating a GitHub issue thread for its potential as a programming chain-of-thought example. 
+Your goal is to provide a comprehensive analysis and rating of the thread's effectiveness in demonstrating problem-solving processes in programming.
+
+Instructions:
+1. Carefully read the issue thread and its context.
+2. Analyze the thread for its suitability as a programming chain-of-thought example, focusing on these key aspects:
+   a. Problem-solving approach
+   b. Code quality
+   c. Clarity of explanations
+
+3. Consider the following additional context in your analysis:
+   - Repository information (name, description, topics, primary language, etc.)
+   - Project context (commit activity, documentation links)
+   - Issue timeline (comments, events, code snippets, sentiment analysis)
+   - Related issues and pull requests
+
+4. Wrap your evaluation process in <analysis_breakdown> tags, following these steps:
+
+   a. Initial assessment:
+      - Identify the type of issue (e.g., bug report, feature request, question)
+      - List all relevant metadata (e.g., labels, assignees, linked pull requests)
+      - Count and list the number of comments, code snippets, and linked items in the thread
+
+   b. Initial problem statement:
+      - Quote the initial problem statement or question from the thread
+      - Analyze its clarity and completeness
+
+   c. Thread summary:
+      - Provide a brief overview of the entire thread, including key points and overall flow of the discussion
+      - Classify the nature of each comment (e.g., question, suggestion, explanation)
+
+   d. Problem-solving approach:
+      - Quote at least one relevant part of the thread that demonstrate the problem-solving approach
+      - Analyze these quotes, highlighting strengths and weaknesses
+      - Consider how the additional context influences the approach
+      - List pros and cons of the approach
+      - After writing this section, rate this aspect on a scale of 1-10
+
+   e. Code quality:
+      - Quote at least one code snippet or solution from the thread
+      - Analyze the code quality, considering factors such as readability, efficiency, and best practices
+      - Evaluate how well the code aligns with the project's overall coding standards
+      - List pros and cons of the code quality
+      - Lastly, Rate this aspect on a scale of 1-10
+
+   f. Clarity of explanations:
+      - Quote at least one part of the thread that showcases explanations of thought processes, solutions, or challenges
+      - Analyze these explanations for clarity and helpfulness
+      - Consider how well the explanations take into account the project context and related issues
+      - List pros and cons of the explanations
+      - FINALLY Rate this aspect on a scale of 1-10
+
+   g. Key learnings:
+      - Summarize the main takeaways or lessons that can be learned from this thread, considering the broader project context
+
+   h. Comparison to ideal:
+      - Compare this thread to what you consider ideal characteristics of a programming chain-of-thought example, taking into account the specific nature of the project
+
+   i. Overall effectiveness:
+      - Summarize the overall effectiveness of the thread as a programming chain-of-thought example, considering all the additional context provided
+
+   j. Potential biases and limitations:
+      - Explicitly consider and list potential biases or limitations in your analysis
+
+   k. Final synthesis:
+      - Prepare a concise summary of your analysis, including the key points from each step and how they contribute to your final evaluation and rating
+
+5. Calculate the final rating as an average of the three aspect ratings (problem-solving approach, code quality, and clarity of explanations), rounding to the nearest whole number.
+
+6. Present your final output in the following format:
+
+   <analysis>
+   [Provide a detailed summary of your findings from the evaluation steps, including the issue type, all relevant metadata, and your analysis of the key aspects. Incorporate insights gained from the additional context provided.]
+   </analysis>
+
+   <justification>
+   [Explain your reasoning for the rating, referencing the key aspects and their individual ratings. Discuss how the additional context influenced your evaluation.]
+   </justification>
+
+   <rating>
+   [State your final numerical rating (1-10)]
+   </rating>
+
+IMPORTANT REMINDERS:
+- Always place scores and ratings AFTER the corresponding review text.
+- Follow the order of review and scoring as outlined in the instructions.
+- Consider all provided context in your analysis, including repository information, project context, issue timeline, and related items.
+
+Example output structure (note: this is a simplified example, your actual output should be much more detailed):
+
+<analysis_breakdown>
+a. Initial assessment:
+   - Issue type: Bug report
+   - Metadata: Labels: "bug", "high-priority"; Assignee: @developer1; Linked PR: #123
+   - Thread statistics: 5 comments, 2 code snippets, 1 linked issue
+
+b. Initial problem statement:
+   "The application crashes when processing large files."
+   Analysis: The statement is clear but lacks specifics about file sizes or error messages.
+
+c. Thread summary:
+   The discussion involves three developers collaborating to identify the root cause...
+   Comment classification:
+   1. Question (User A)
+   2. Suggestion (User B)
+   3. Explanation (User C)
+   ...
+
+[Continue with steps d through k]
+</analysis_breakdown>
+
+<analysis>
+The GitHub issue thread demonstrates a collaborative effort to solve a critical bug...
+[Detailed summary of findings]
+</analysis>
+
+<justification>
+The final rating of 5/10 is justified by the following factors:
+1. Problem-solving approach (3/10): The team demonstrated a systematic...
+2. Code quality (6/10): While the final solution was efficient...
+3. Clarity of explanations (4/10): Most explanations were clear and detailed...
+[Further explanation of reasoning]
+</justification>
+
+<rating>
+5
+</rating>
+
+Remember to provide a comprehensive analysis that reflects the complexity of the issue thread and its context.
+Remember that all numerical ratings should be supported by the content of your review.
+IMPORTANT: ALL written reviews, analysis or justifications should come BEFORE the rating/score. 
+IMPORTANT: All ratings and scores should be placed at the END of the relevant section - This is to ensure that the scores are derived from the review content, and not the other way around.
