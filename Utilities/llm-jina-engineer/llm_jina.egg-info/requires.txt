@@ -1,6 +1,0 @@
-llm
-click
-requests
-
-[test]
-pytest
