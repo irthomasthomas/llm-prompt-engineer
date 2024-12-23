@@ -1,4 +1,4 @@
-
+# This is a work-in-progress and probably mostly broken in this version.
 
 This plugin provides functionality for generating few-shot prompts from Git repositories and GitHub issues. It can be used as a plugin for the LLM CLI tool.
 
